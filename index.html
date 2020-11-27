@@ -1,0 +1,231 @@
+<doctype html>
+<html lang="es">
+<head>
+ <meta charset="utf-8">
+ <title>Lee y escribe con App Gri</title>
+ <meta name="description" content="Web responsive, App o red social de lectura y escritura">
+<link rel="stylesheet" href="css/style.css">
+ <!--Favicon de la landing-->
+ <!--Preguntar por qué no carga favicon por más que haya hecho todos los pasos-->
+ <link rel="icon" href="favicon.ico" type="image/x-icon">
+ <!--PROBLEMAS CON FAVICON-->
+ <!--​livingtheweb01@gmail.com // enviar archivo comprimido a esa dirección-->
+</head> 
+
+
+<body>
+
+   <nav>
+
+      <!--Menú hamburguesa-->
+      <div class="col-1">
+         <button>
+             <span>=</span>
+         </button>
+      </div>
+
+
+      <!--Menú de navegación-->
+      <!--Menú oculto dentro de menú hamburguesa-->
+         <ul>
+             <li><a href="#formulario">Formulario de registro</a></li>
+             <li><a href="#redes">Redes y contacto</a></li>
+             <li><a href="#descarga">Descarga la App</a></li>
+             <li><a href="#opiniones">Opiniones</a></li>
+             <li><a href="#anclas">Anclas</a>    
+                 <ul>
+                     <li><a href="#beneficios">Beneficios</a></li>
+                     <li><a href="#terminos">Términos y condiciones</a></li>
+                 </ul>
+             </li>
+         </ul>
+
+ 
+ 
+      <!--Nombre App-->
+      <div class="col-2">
+          <h1 aling="center" style="color:orange"><span style="border-bottom:solid 3px rgb(1, 88, 1)">App Gri</span></h1>
+      </div>
+
+
+    <!--Logo-->
+    <div class=col-1>
+       <h2>
+          <a href="">
+             <img src="images/icono-2 (1).png" width="70" title="Icono de App Gri" alt="Logo de la App">
+          </a>
+       </h2> 
+       <hr> 
+  </div>
+  
+  <br>
+  <br>
+
+ </nav>
+
+
+
+<header> 
+
+  <!--Descripción e imagen representativa de la App-->  
+  <div class="col-4"> 
+     <img src="images/imagen-principal.png" width="200" title="Libros en tu dispositivo con App Gri" alt="Descripción gráfica de App Gri">
+     <p>“App Gri” es una <span style="border-bottom:solid 2px green"> aplicación, página web o red social de lectura y escritura </span>de libros, textos, poemas, etc. No solo podrás entrar a través de un Smartphone sino que además se puede acceder a la misma desde cualquier navegador.</p>
+     <p>En ella podrás publicar y compartir, con el mundo, tus propias creaciones. Aplicación que permite a los autores y lectores interactuar entre sí. </p>
+     <p>Descárgala hoy para comenzar a leer y/o escribir obras famosas y originales. </p>
+     <br> 
+  </div>
+
+
+  <!--Anclas / Call to Action o Llamada a la Acción (CTA)-->
+    <div id="anclas"> 
+        <hr> 
+        <br> 
+        <div class="col-2">
+             <a href="#beneficios" style="border:solid 2px gray">Beneficios</a>
+        <div class="col-2">  
+             <a href="#terminos" style="border:solid 2px gray">Términos y condiciones</a>
+        </div> 
+    </div>
+ 
+
+  <!--Formulario de registro-->
+   <div id="formulario">
+         <hr>
+         <br>
+         <h3>Registro</h3>
+         <form action="procesar-formulario.php" post="post">
+             <input type="text" placeholder="Nombre(s) y apellido(s)" required>
+             <input type="date" placeholder="Edad" required>
+             <input type="email" placeholder="Email" required>
+             <input type="password" placeholder="Contraseña" required>
+             <button type="submit">Registrarme</button>
+        </form>
+
+         <br>
+         <br>
+         <br>
+   </div>
+
+
+   <!--Opiniones de personas sobre la aplicación (captura del comentario)-->
+   <div id="opiniones" class="modal-mask">
+       <div class="content">
+           <h3>Opiniones</h3>
+         <div class="col-2">
+             <img src="" width="100" title="comentario/opinión(1)" alt="Captura(1): opinión hecha por un miembro de App Gri">
+         </div>
+         <div class="col-2">
+             <img src="" width="100" title="comentario/opinión(2)" alt="Captura(2): opinión hecha por un miembro de App Gri">
+             <br>
+         </div>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+      </div>
+   </div>
+
+</header>
+
+
+
+<footer>
+ 
+  <!--Anclas para descargar la App. Páginas externas-->
+  <div id="descarga">
+     <hr>
+     <br>
+     <a href="https://play.google.com/store" target="_blank"><img src="images/play-store.png" width="30" title="Descarga por Play Store" alt="Logo Play Store"></a>
+     <a href="https://www.apple.com/app-store/" target="_blank"><img src="images/app_store.png" width="30" title="Descarga por App Store" alt="Logo App Store"></a>
+  </div>
+
+
+  <!--Anclas de redes sociales. Páginas externas-->
+  <div id="redes">
+     <a href="mailto:gri.leeyescribe@gmail.coml" target="_blank"><img src= "images/gmail.png" width="30" title= "Gmail de contacto" alt = "Logo Gmail"></a>
+     <a href="https://www.facebook.com/" target="_blank"><img src= "images/facebook.png" width="30" title= "Página de Facebook" alt = "Logo Facebook"></a>
+     <a href="https://www.instagram.com/" target="_blank"><img src= "images/instagram.png" width="30" title= "Cuenta de Instagram" alt = "Logo de Instagram"></a>
+     <a href="https://twitter.com/" target="_blank"><img src= "images/twitter.jpg" width="30" title= "Cuenta de Twitter" alt = "Logo de Twitter"></a>
+  </div>
+
+  <br>
+  <br>
+</footer>
+
+
+
+<main>
+
+  <!--Ventajas que ofrece la App (texto e imagen)-->
+  <div  id="beneficios" class="modal-mask"> 
+       <hr>
+      <div class="content">
+          <a href="#/">X</a>
+          
+          <h3>Beneficios</h3>
+          <img src="" width="50" title="" alt="Ejemplo (icono) opción: 'escritura'">
+          <h4>Escribí y compartí todas tus creaciones</h4>
+          <p>Con Gri no solo puedes escribir todas tus obras y guardarlas en la nube, sino que además tienes la opción compartirlas con todos y todas las integrantes de la app. También puedes creer una seccion para que sólo tenga acceso quienes desees. No solo eso, podrás escribir en equipo... al mismo tiempo!</p>
+          <img src="" width="50" title="" alt="Ejemplo (button) 'promocionar'">
+          <h4>Promocioná tus escritos/obras con los miembros de la aplicación</h4>
+          <p>Quieres volverte famoso/a haciendo lo que más te gusta? Gri te da esa oportunidad.Puedes promocionar todos tus libros y hacerte conocer por toda nuestra comunidad. Recibe votos para encontrarte en el puesto número 1 de los libros más leídos.</p> 
+          <img src="" width="50" title="" alt="Ejemplo (icono) opción: 'buscar libros'">
+          <h4>Lee escritos/obras de autores/as no conocidos/as, como así también de escritores/as famosos/as</h4>
+          <p>Gri no sólo brinda la oportunidad de que hagas realidad tu sueño, haciendo que las personas puedan conocer tu talento. Sino que además... ¿Eres fan de algún/a autor/a? En nuestra app podrás leer esos escritos que tanto te gustan y muchos más estarán esperándote para que los conozcas.</p>
+          <img src="" width="50" title="" alt="Ejemplo (icono) de biblioteca">
+          <h4>Votá y guardá tus libros favoritos</h4>
+          <p>Leíste un libro y quieres compartirlo con el mundo? Con la opción "me gusta" tienes la oportunidad de hacerlo real, entre más votos más lejos llegará. Puedes ponerle un puntaje de 1 a 5 estrellas.</p>
+          <p>"App Gri" cuenta con una opción de "biblioteca virtual", guarda los libros que más te gustaron y para que puedas seguir leyéndolos más tarde, sin tiempo.</p>
+          <img src="" width="50" title="" alt="Ejemplo interfaz visual y organización">
+          <h4>Buena organización e interfaz visual atractivo</h4>
+          <p>Descargaste otra app la cual nunca la entendiste? Gracias a su organización, es muy fácil aprender a usar "App Gri" y conocer cómo moverte dentro de la aplicación de forma correcta. Además, podemos experimentar la satisfacción que sentimos al leer la página de un libro, pero directamente desde nuestro celular.</p>
+          <img src="" width="50" title="" alt="Ejemplo motor de búsqueda: terror">
+          <h4>Configurá el motor de búsqueda</h4>
+          <p>Estás interesado en leer libros de un género literario pero no los encuentras? "App Gri" brinda la posibilidad de poder configurar el motor de búsqueda por categoría y así poder encontrar escritos de tu interés con mayor facilidad.</p>
+          <img src="" width="50" title="" alt="Ejemplo de encargar liros">
+          <h4>Encargá los libros que no encuentres</h4>
+          <p>Buscas un libro y no está disponible? No te preocupes. Con Gri puedes encargar eso que tanto quieres leer y tenerlo en tu biblioteca, en menos de 24 horas, por tiempo indefinido.</p>
+          <br>
+      </div>
+  </div>
+
+    
+
+</main>
+ 
+
+
+<aside>
+  <div class="col-4" id="terminos">
+       <div class="content">
+          <a href="#/">X</a>
+          <h3>Política de privacidad</h3>
+          <p>App Gri...</p>
+          <h3>Términos y condiciones</h3>
+          <p>Al aceptar...</p>
+          <!--consultar si se coloca (de otra forma)en la landing-->
+          <!--<button type="submit" required>Aceptar política de privacidad</button>
+          <button type="submit" required>Aceptar términos y condiciones</button>-->
+       </div>
+  </div>
+
+
+
+</aside>
+
+
+
+
+<!--DUDAS O CONSULTAS-->
+<!--Consultar aside (cómo debe ser). No me quedó claro como debo implementarlo, en qué parte de mi landing se encuentra-->
+<!--Consultar si existe algo parecido a una ventana modal pero que quede permanente y que vaya bajando y/o subiendo acorder al cursor, la misma debe contener un botón(button) para poder regresar al inicio de la landing-->
+<!--Duda: el aside puede estar dentro de una ventana modal?-->
+   
+
+</body>
+<!--Final de la landing--> 
+</html>
