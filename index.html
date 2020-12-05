@@ -18,12 +18,14 @@
    <nav>
 
       <!--Menú hamburguesa-->
-      <div class="col-1">
-         <button>
-             <span>=</span>
-         </button>
-      </div>
-
+    <div class="container">
+         <div class="row">
+             <div class="col-1">
+                 <button>
+                     <span>=</span>
+                 </button>
+             </div>
+             
 
       <!--Menú de navegación-->
       <!--Menú oculto dentro de menú hamburguesa-->
@@ -43,122 +45,145 @@
  
  
       <!--Nombre App-->
-      <div class="col-2">
-          <h1 aling="center" style="color:orange"><span style="border-bottom:solid 3px rgb(1, 88, 1)">App Gri</span></h1>
-      </div>
+             <div class="col-2">
+                 <h1 aling="center" style="color:orange"><span style="border-bottom:solid 3px rgb(1, 88, 1)">App Gri</span></h1>
+             </div>
 
 
     <!--Logo-->
-    <div class=col-1>
-       <h2>
-          <a href="">
-             <img src="images/icono-2 (1).png" width="70" title="Icono de App Gri" alt="Logo de la App">
-          </a>
-       </h2> 
-       <hr> 
-  </div>
+             <div class=col-1>
+                 <h2>
+                 <a href="">
+                      <img src="images/icono-2 (1).png" width="70" title="Icono de App Gri" alt="Logo de la App">
+                 </a>
+                 </h2> 
+                 <hr> 
+             </div>
   
-  <br>
-  <br>
+             <br>
+             <br>
+         </div> <!-- /.row -->
+    </div> <!-- /.container -->
 
  </nav>
 
 
 
-<header> 
+ <header> 
 
   <!--Descripción e imagen representativa de la App-->  
-  <div class="col-4"> 
-     <img src="images/imagen-principal.png" width="200" title="Libros en tu dispositivo con App Gri" alt="Descripción gráfica de App Gri">
-     <p>“App Gri” es una <span style="border-bottom:solid 2px green"> aplicación, página web o red social de lectura y escritura </span>de libros, textos, poemas, etc. No solo podrás entrar a través de un Smartphone sino que además se puede acceder a la misma desde cualquier navegador.</p>
-     <p>En ella podrás publicar y compartir, con el mundo, tus propias creaciones. Aplicación que permite a los autores y lectores interactuar entre sí. </p>
-     <p>Descárgala hoy para comenzar a leer y/o escribir obras famosas y originales. </p>
-     <br> 
-  </div>
-
+   <div class="container">
+         <div class="row">
+            <section>
+                 <div class="col-4"> 
+                     <img src="images/imagen-principal.png" width="200" title="Libros en tu dispositivo con App Gri" alt="Descripción gráfica de App Gri">
+                     <article>
+                         <p>“App Gri” es una <span style="border-bottom:solid 2px green"> aplicación, página web o red social de lectura y escritura </span>de libros, textos, poemas, etc. No solo podrás entrar a través de un Smartphone sino que además se puede acceder a la misma desde cualquier navegador.</p>
+                         <p>En ella podrás publicar y compartir, con el mundo, tus propias creaciones. Aplicación que permite a los autores y lectores interactuar entre sí. </p>
+                         <p>Descárgala hoy para comenzar a leer y/o escribir obras famosas y originales. </p>
+                     </article>
+                     <br> 
+                 </div>
+             </section>
+         </div> <!-- /.row -->
+   </div> <!-- /.container -->
+        
 
   <!--Anclas / Call to Action o Llamada a la Acción (CTA)-->
-    <div id="anclas"> 
-        <hr> 
-        <br> 
-        <div class="col-2">
-             <a href="#beneficios" style="border:solid 2px gray">Beneficios</a>
-        <div class="col-2">  
-             <a href="#terminos" style="border:solid 2px gray">Términos y condiciones</a>
-        </div> 
-    </div>
+    <div class="container">
+         <div class="row" id="anclas">
+             <hr> 
+             <br> 
+             <div class="col-2">
+                 <a href="#beneficios" style="border:solid 2px gray">Beneficios</a>
+             </div>   
+             <div class="col-2">  
+                 <a href="#terminos" style="border:solid 2px gray">Términos y condiciones</a>
+             </div> 
+         </div> <!-- /.row -->
+    </div> <!-- /.container -->
  
 
   <!--Formulario de registro-->
-   <div id="formulario">
-         <hr>
-         <br>
-         <h3>Registro</h3>
-         <form action="procesar-formulario.php" post="post">
-             <input type="text" placeholder="Nombre(s) y apellido(s)" required>
-             <input type="date" placeholder="Edad" required>
-             <input type="email" placeholder="Email" required>
-             <input type="password" placeholder="Contraseña" required>
-             <button type="submit">Registrarme</button>
-        </form>
+    <div class="container">
+         <div class="row" id="formulario">
+             <hr>
+             <br>
+             <h3>Registro</h3>
+             <form action="procesar-formulario.php" post="post">
+                 <input type="text" placeholder="Nombre(s) y apellido(s)" required>
+                 <input type="date" placeholder="Edad" required>
+                 <input type="email" placeholder="Email" required>
+                 <input type="password" placeholder="Contraseña" required>
+                 <button type="submit">Registrarme</button>
+             </form>
 
-         <br>
-         <br>
-         <br>
-   </div>
+             <br>
+             <br>
+             <br>
+         </div> <!-- /.row -->
+    </div> <!-- /.container -->
 
 
    <!--Opiniones de personas sobre la aplicación (captura del comentario)-->
-   <div id="opiniones" class="modal-mask">
-       <div class="content">
-           <h3>Opiniones</h3>
-         <div class="col-2">
-             <img src="" width="100" title="comentario/opinión(1)" alt="Captura(1): opinión hecha por un miembro de App Gri">
-         </div>
-         <div class="col-2">
-             <img src="" width="100" title="comentario/opinión(2)" alt="Captura(2): opinión hecha por un miembro de App Gri">
-             <br>
-         </div>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-          <br>
-      </div>
-   </div>
+    <div id="opiniones" class="modal-mask">
+              <div class="content">
+                 <div class="row">    
+                     <h3>Opiniones</h3>
+                     <div class="col-2">
+                         <img src="" width="100" title="comentario/opinión(1)" alt="Captura(1): opinión hecha por un miembro de App Gri">
+                      </div>
+                     <div class="col-2">
+                         <img src="" width="100" title="comentario/opinión(2)" alt="Captura(2): opinión hecha por un miembro de App Gri">
+                         <br>
+                     </div>
+                     <br>
+                     <br>
+                     <br>
+                     <br>
+                     <br>
+                     <br>
+                     <br>
+                 </div> <!-- /.row -->
+             </div> <!-- /.container -->
+    </div>
 
-</header>
+ </header>
 
 
 
-<footer>
+ <footer>
  
   <!--Anclas para descargar la App. Páginas externas-->
-  <div id="descarga">
-     <hr>
-     <br>
-     <a href="https://play.google.com/store" target="_blank"><img src="images/play-store.png" width="30" title="Descarga por Play Store" alt="Logo Play Store"></a>
-     <a href="https://www.apple.com/app-store/" target="_blank"><img src="images/app_store.png" width="30" title="Descarga por App Store" alt="Logo App Store"></a>
-  </div>
+  <div class="container">
+         <div class="row">
+             <div id="descarga">
+                 <hr>
+                 <br>
+                 <a href="https://play.google.com/store" target="_blank"><img src="images/play-store.png" width="30" title="Descarga por Play Store" alt="Logo Play Store"></a>
+                 <a href="https://www.apple.com/app-store/" target="_blank"><img src="images/app_store.png" width="30" title="Descarga por App Store" alt="Logo App Store"></a>
+             </div>
 
 
   <!--Anclas de redes sociales. Páginas externas-->
-  <div id="redes">
-     <a href="mailto:gri.leeyescribe@gmail.coml" target="_blank"><img src= "images/gmail.png" width="30" title= "Gmail de contacto" alt = "Logo Gmail"></a>
-     <a href="https://www.facebook.com/" target="_blank"><img src= "images/facebook.png" width="30" title= "Página de Facebook" alt = "Logo Facebook"></a>
-     <a href="https://www.instagram.com/" target="_blank"><img src= "images/instagram.png" width="30" title= "Cuenta de Instagram" alt = "Logo de Instagram"></a>
-     <a href="https://twitter.com/" target="_blank"><img src= "images/twitter.jpg" width="30" title= "Cuenta de Twitter" alt = "Logo de Twitter"></a>
-  </div>
+             <div id="redes">
+                 <a href="mailto:gri.leeyescribe@gmail.coml" target="_blank"><img src= "images/gmail.png" width="30" title= "Gmail de contacto" alt = "Logo Gmail"></a>
+                 <a href="https://www.facebook.com/" target="_blank"><img src= "images/facebook.png" width="30" title= "Página de Facebook" alt = "Logo Facebook"></a>
+                 <a href="https://www.instagram.com/" target="_blank"><img src= "images/instagram.png" width="30" title= "Cuenta de Instagram" alt = "Logo de Instagram"></a>
+                 <a href="https://twitter.com/" target="_blank"><img src= "images/twitter.jpg" width="30" title= "Cuenta de Twitter" alt = "Logo de Twitter"></a>
+             </div>
 
-  <br>
-  <br>
-</footer>
+             <br>
+             <br>
+         </div> <!-- /.row -->
+  </div> <!-- /.container -->
+  </footer>
 
 
 
-<main>
+<!--DUDA: las ventanas modales deben clasificarse como section y article?-->
+<!--Ventanas modales 1-beneficios, 2-Términos y condiciones-->
+ <main>
 
   <!--Ventajas que ofrece la App (texto e imagen)-->
   <div  id="beneficios" class="modal-mask"> 
@@ -195,11 +220,11 @@
 
     
 
-</main>
+ </main>
  
 
 
-<aside>
+ <aside>
   <div class="col-4" id="terminos">
        <div class="content">
           <a href="#/">X</a>
@@ -215,15 +240,14 @@
 
 
 
-</aside>
+ </aside>
 
 
 
-
-<!--DUDAS O CONSULTAS-->
-<!--Consultar aside (cómo debe ser). No me quedó claro como debo implementarlo, en qué parte de mi landing se encuentra-->
-<!--Consultar si existe algo parecido a una ventana modal pero que quede permanente y que vaya bajando y/o subiendo acorder al cursor, la misma debe contener un botón(button) para poder regresar al inicio de la landing-->
-<!--Duda: el aside puede estar dentro de una ventana modal?-->
+ <!--DUDAS O CONSULTAS-->
+ <!--Consultar aside (cómo debe ser). No me quedó claro como debo implementarlo, en qué parte de mi landing se encuentra-->
+ <!--Consultar si existe algo parecido a una ventana modal pero que quede permanente y que vaya bajando y/o subiendo acorder al cursor, la misma debe contener un botón(button) para poder regresar al inicio de la landing-->
+ <!--Duda: el aside puede estar dentro de una ventana modal?-->
    
 
 </body>
