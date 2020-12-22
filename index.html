@@ -15,7 +15,7 @@
 
 <body>
 
-   <nav>
+   <nav class="navbar">
 
       <!--Menú hamburguesa-->
     <div class="container">
@@ -29,35 +29,32 @@
 
       <!--Menú de navegación-->
       <!--Menú oculto dentro de menú hamburguesa-->
-         <ul>
-             <li><a href="#formulario">Formulario de registro</a></li>
-             <li><a href="#redes">Redes y contacto</a></li>
-             <li><a href="#descarga">Descarga la App</a></li>
-             <li><a href="#opiniones">Opiniones</a></li>
-             <li><a href="#anclas">Anclas</a>    
-                 <ul>
-                     <li><a href="#beneficios">Beneficios</a></li>
-                     <li><a href="#terminos">Términos y condiciones</a></li>
-                 </ul>
+        <ul class="navbar-menu">
+             <li class="navbar-item"><a href="#formulario" class="navbar-link">Formulario de registro</a></li>
+             <li class="navbar-item"><a href="#redes" class="navbar-link">Redes y contacto</a></li>
+             <li class="navbar-item"><a href="#descarga" class="navbar-link">Descarga la App</a></li>
+             <li class="navbar-item"><a href="#opiniones" class="navbar-link">Opiniones</a></li>
+             <li class="navbar-item"><a href="#anclas" class="navbar-link">Más información</a> 
              </li>
          </ul>
-
  
  
       <!--Nombre App-->
              <div class="col-2">
-                 <h1 aling="center" style="color:orange"><span style="border-bottom:solid 3px rgb(1, 88, 1)">App Gri</span></h1>
+                 <h1>App Gri</h1>
              </div>
 
 
     <!--Logo-->
              <div class=col-1>
-                 <h2>
-                 <a href="">
-                      <img src="images/icono-2 (1).png" width="70" title="Icono de App Gri" alt="Logo de la App">
-                 </a>
-                 </h2> 
-                 <hr> 
+                 <div class="icon">
+                     <h2>
+                     <a href="">
+                         <img src="images/icono-2 (1).png" width="70" title="Icono de App Gri" alt="Logo de la App">
+                     </a>
+                     </h2> 
+                     <hr> 
+                 </div>
              </div>
   
              <br>
@@ -74,14 +71,16 @@
   <!--Descripción e imagen representativa de la App-->  
    <div class="container">
          <div class="row">
-            <section>
+            <section id="principal">
                  <div class="col-4"> 
                      <img src="images/imagen-principal.png" width="200" title="Libros en tu dispositivo con App Gri" alt="Descripción gráfica de App Gri">
-                     <article>
-                         <p>“App Gri” es una <span style="border-bottom:solid 2px green"> aplicación, página web o red social de lectura y escritura </span>de libros, textos, poemas, etc. No solo podrás entrar a través de un Smartphone sino que además se puede acceder a la misma desde cualquier navegador.</p>
-                         <p>En ella podrás publicar y compartir, con el mundo, tus propias creaciones. Aplicación que permite a los autores y lectores interactuar entre sí. </p>
-                         <p>Descárgala hoy para comenzar a leer y/o escribir obras famosas y originales. </p>
-                     </article>
+                     <div class="aling-tex">
+                         <article>
+                             <p>“App Gri” es una <span style="border-bottom:solid 2px green"> aplicación, página web o red social de lectura y escritura </span>de libros, textos, poemas, etc. No solo podrás entrar a través de un Smartphone sino que además se puede acceder a la misma desde cualquier navegador.</p>
+                             <p>En ella podrás publicar y compartir, con el mundo, tus propias creaciones. Aplicación que permite a los autores y lectores interactuar entre sí. </p>
+                             <p>Descárgala hoy para comenzar a leer y/o escribir obras famosas y originales. </p>
+                         </article>
+                    </div>
                      <br> 
                  </div>
              </section>
@@ -107,17 +106,18 @@
   <!--Formulario de registro-->
     <div class="container">
          <div class="row" id="formulario">
-             <hr>
-             <br>
-             <h3>Registro</h3>
-             <form action="procesar-formulario.php" post="post">
-                 <input type="text" placeholder="Nombre(s) y apellido(s)" required>
-                 <input type="date" placeholder="Edad" required>
-                 <input type="email" placeholder="Email" required>
-                 <input type="password" placeholder="Contraseña" required>
-                 <button type="submit">Registrarme</button>
-             </form>
-
+             <div class="form">
+                 <hr>
+                 <br>
+                 <h3>Registro</h3>
+                 <form action="procesar-formulario.php" post="post">
+                     <input type="text" placeholder="Nombre(s) y apellido(s)" required>
+                     <input type="date" placeholder="Edad" required>
+                     <input type="email" placeholder="Email" required>
+                     <input type="password" placeholder="Contraseña" required>
+                     <button class="btn"type="submit">Registrarme</button>
+                 </form>
+             </div>
              <br>
              <br>
              <br>
@@ -155,7 +155,7 @@
  <footer>
  
   <!--Anclas para descargar la App. Páginas externas-->
-  <div class="container">
+  <div class="container" class="aling-anclas-download">
          <div class="row">
              <div id="descarga">
                  <hr>
@@ -166,15 +166,13 @@
 
 
   <!--Anclas de redes sociales. Páginas externas-->
-             <div id="redes">
+             <div id="redes" class="aling-anclas-networks">
                  <a href="mailto:gri.leeyescribe@gmail.coml" target="_blank"><img src= "images/gmail.png" width="30" title= "Gmail de contacto" alt = "Logo Gmail"></a>
                  <a href="https://www.facebook.com/" target="_blank"><img src= "images/facebook.png" width="30" title= "Página de Facebook" alt = "Logo Facebook"></a>
                  <a href="https://www.instagram.com/" target="_blank"><img src= "images/instagram.png" width="30" title= "Cuenta de Instagram" alt = "Logo de Instagram"></a>
                  <a href="https://twitter.com/" target="_blank"><img src= "images/twitter.jpg" width="30" title= "Cuenta de Twitter" alt = "Logo de Twitter"></a>
              </div>
 
-             <br>
-             <br>
          </div> <!-- /.row -->
   </div> <!-- /.container -->
   </footer>

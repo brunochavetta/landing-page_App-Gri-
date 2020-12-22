@@ -1,4 +1,109 @@
-body{
-
+:root {
 
 }
+
+/* Base
+============================= */
+body {
+  font-family:'Courier New', Courier, monospace;
+  line-height: 1.5;
+  text-size-adjust: auto;
+}
+
+a {
+  color:#000;
+  text-decoration: none;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-variant: small-caps;
+  text-align: center;
+}
+
+h3{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-variant: small-caps
+}
+
+ul {
+  list-style: none;
+}
+
+
+
+/* Helpers (clases especiales de ayuda)
+======================================= */
+
+.icon {
+  text-align-last: right;
+}
+
+.img-aling{
+}
+
+.form {
+  background: lightgray;
+}
+
+
+
+/* Layout (grid-system) // Grillas
+==================================== */
+
+.aling-tex {
+  vertical-align: middle;
+}
+
+.aling-anclas-networks {
+ text-align: right;
+}
+
+.aling-anclas-download {
+  text-align: left;
+}
+
+
+
+/* Components (btn, boxes, accordion, etc)
+============================= */
+    
+ul.navbar-menu {
+  margin:0;
+  padding:0;
+  }
+
+.navbar-item{
+  margin-bottom:12px;
+  display: inline-block;
+  color: white;
+  }
+
+.navbar-item :hover {
+  background-color: yellowgreen
+  }  
+
+.navbar-link{
+  font-size:15px;
+  text-transform: uppercase;
+}  
+
+.btn{
+  color: black;
+  background-color: rgb(255, 193, 59);
+  cursor: pointer;
+ }
+
+footer{
+  background: rgb(255, 221, 157)
+
+ }
+
+
+
+/* Pages/section
+============================= */
+
+#principal{
+
+ }
