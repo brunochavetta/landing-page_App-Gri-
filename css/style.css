@@ -32,18 +32,13 @@ ul {
   list-style: none;
 }
 
-img{
-  display:block;
-  margin:auto
-}
-
 
 
 /* Helpers (clases especiales de ayuda)
 ======================================= */
 
 .icon {
-  text-align-last: right;
+  text-align: center;
 }
 
 .form {
@@ -51,14 +46,15 @@ img{
 }
 
 .config-anchorage {
+  
   padding: 8px 12px;
   background: #A0B19F;
   margin: 3px;
-  -moz-animation: center;
 }
 
 .unite-div{
   float:left;
+  margin: 0px 10px 10px 0px;
 }
 
 .unite-div-principal{
@@ -67,32 +63,37 @@ img{
   text-align: center;
 }
 
-.aling-anchorage-networks{
-  float:left
-}
-
-.aling-anchorage-download{
-  float:left
-
-}
-
-
 
 /* Layout (grid-system) // Grillas
 ==================================== */
 
-.aling-tex {
+.aling-text {
   padding: 0px 0px 0px 200px;
   vertical-align: middle;
 }
 
-.aling-anclas-networks {
- text-align: right;
+.aling-text-modal{
+  padding: 0px 0px 0px 115px;
+  vertical-align: middle
 }
 
-.aling-anclas-download {
-  text-align: left;
+.aling-anchorage-download{
+  text-align-last: left;
+  float:left;
+  margin: auto;
+} 
+
+.aling-anchorage-networks{
+   text-align-last: right;
+   margin: auto;
+} 
+
+.aling-img-opinions{
+  float:left;
+  margin: 0px 0px 0px 500px;
 }
+
+
 
 
 
@@ -106,7 +107,6 @@ ul.navbar-menu {
 
 .navbar-item{
   margin-bottom:12px;
-  display: inline-block;
   color: white;
   }
 
