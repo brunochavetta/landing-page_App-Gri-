@@ -21,9 +21,11 @@
     <div class="container">
          <div class="row">
              <div class="col-1">
-                 <button>
-                     <span>=</span>
-                 </button>
+                 <div class="">
+                     <button>
+                         <span>=</span>
+                     </button>
+                 </div>
              </div>
              
 
@@ -31,9 +33,9 @@
       <!--Menú oculto dentro de menú hamburguesa-->
         <ul class="navbar-menu">
              <li class="navbar-item"><a href="#formulario" class="navbar-link">Formulario de registro</a></li>
+             <li class="navbar-item"><a href="#opiniones" class="navbar-link">Opiniones</a></li>
              <li class="navbar-item"><a href="#redes" class="navbar-link">Redes y contacto</a></li>
              <li class="navbar-item"><a href="#descarga" class="navbar-link">Descarga la App</a></li>
-             <li class="navbar-item"><a href="#opiniones" class="navbar-link">Opiniones</a></li>
              <li class="navbar-item"><a href="#anclas" class="navbar-link">Más información</a> 
              </li>
          </ul>
@@ -41,7 +43,9 @@
  
       <!--Nombre App-->
              <div class="col-2">
-                 <h1>App Gri</h1>
+                <a href="#/" class="unite-div-principa">
+                     <h1>App Gri</h1>
+                </a>
              </div>
 
 
@@ -49,7 +53,7 @@
              <div class=col-1>
                  <div class="icon">
                      <h2>
-                     <a href="">
+                     <a href="#/" class="unite-div-principa">
                          <img src="images/icono-2 (1).png" width="70" title="Icono de App Gri" alt="Logo de la App">
                      </a>
                      </h2> 
@@ -73,14 +77,14 @@
          <div class="row">
             <section id="principal">
                  <div class="col-4"> 
-                     <img src="images/imagen-principal.png" width="200" title="Libros en tu dispositivo con App Gri" alt="Descripción gráfica de App Gri">
-                     <div class="aling-tex">
-                         <article>
-                             <p>“App Gri” es una <span style="border-bottom:solid 2px green"> aplicación, página web o red social de lectura y escritura </span>de libros, textos, poemas, etc. No solo podrás entrar a través de un Smartphone sino que además se puede acceder a la misma desde cualquier navegador.</p>
-                             <p>En ella podrás publicar y compartir, con el mundo, tus propias creaciones. Aplicación que permite a los autores y lectores interactuar entre sí. </p>
-                             <p>Descárgala hoy para comenzar a leer y/o escribir obras famosas y originales. </p>
-                         </article>
-                    </div>
+                     <div class="unite-div">
+                         <img src="images/imagen-principal.png" width="200" title="Libros en tu dispositivo con App Gri"     alt="Descripción gráfica de App Gri">
+                     </div>
+                     <article class="aling-tex">
+                         <p>“App Gri” es una <span style="border-bottom:solid 2px green"> aplicación, página we o     red social de lectura y escritura </span>de libros, textos, poemas, etc. No sol podrás     entrar a través de un Smartphone sino que además se puede acceder a la mism desde     cualquier navegador.</p>
+                         <p>En ella podrás publicar y compartir, con el mundo, tus propias creaciones Aplicación     que permite a los autores y lectores interactuar entre sí. </p>
+                         <p>Descárgala hoy para comenzar a leer y/o escribir obras famosas y originales. </p>
+                     </article>
                      <br> 
                  </div>
              </section>
@@ -94,11 +98,14 @@
              <hr> 
              <br> 
              <div class="col-2">
-                 <a href="#beneficios" style="border:solid 2px gray">Beneficios</a>
+                 <div class="unite-div">
+                     <a href="#beneficios" style="border:solid 2px gray" class="config-anchorage">Beneficios</a>
+                 </div>
              </div>   
-             <div class="col-2">  
-                 <a href="#terminos" style="border:solid 2px gray">Términos y condiciones</a>
+             <div class="col-2"> 
+                     <a href="#terminos" style="border:solid 2px gray" class="config-anchorage">Términos y condiciones</a>
              </div> 
+             <br>
          </div> <!-- /.row -->
     </div> <!-- /.container -->
  
@@ -108,7 +115,6 @@
          <div class="row" id="formulario">
              <div class="form">
                  <hr>
-                 <br>
                  <h3>Registro</h3>
                  <form action="procesar-formulario.php" post="post">
                      <input type="text" placeholder="Nombre(s) y apellido(s)" required>
@@ -118,8 +124,6 @@
                      <button class="btn"type="submit">Registrarme</button>
                  </form>
              </div>
-             <br>
-             <br>
              <br>
          </div> <!-- /.row -->
     </div> <!-- /.container -->
@@ -131,17 +135,14 @@
                  <div class="row">    
                      <h3>Opiniones</h3>
                      <div class="col-2">
+                         <div class="unite-div">
                          <img src="" width="100" title="comentario/opinión(1)" alt="Captura(1): opinión hecha por un miembro de App Gri">
+                         </div>
                       </div>
                      <div class="col-2">
                          <img src="" width="100" title="comentario/opinión(2)" alt="Captura(2): opinión hecha por un miembro de App Gri">
                          <br>
                      </div>
-                     <br>
-                     <br>
-                     <br>
-                     <br>
-                     <br>
                      <br>
                      <br>
                  </div> <!-- /.row -->
@@ -160,17 +161,17 @@
              <div id="descarga">
                  <hr>
                  <br>
-                 <a href="https://play.google.com/store" target="_blank"><img src="images/play-store.png" width="30" title="Descarga por Play Store" alt="Logo Play Store"></a>
-                 <a href="https://www.apple.com/app-store/" target="_blank"><img src="images/app_store.png" width="30" title="Descarga por App Store" alt="Logo App Store"></a>
+                 <a href="https://play.google.com/store" target="_blank" class="unite-div"><img src="images/play-store.png" width="30" title="Descarga por Play Store" alt="Logo Play Store"></a>
+                 <a href="https://www.apple.com/app-store/" target="_blank" class="unite-div"><img src="images/app_store.png" width="30" title="Descarga por App Store" alt="Logo App Store"></a>
              </div>
 
 
   <!--Anclas de redes sociales. Páginas externas-->
              <div id="redes" class="aling-anclas-networks">
-                 <a href="mailto:gri.leeyescribe@gmail.coml" target="_blank"><img src= "images/gmail.png" width="30" title= "Gmail de contacto" alt = "Logo Gmail"></a>
-                 <a href="https://www.facebook.com/" target="_blank"><img src= "images/facebook.png" width="30" title= "Página de Facebook" alt = "Logo Facebook"></a>
-                 <a href="https://www.instagram.com/" target="_blank"><img src= "images/instagram.png" width="30" title= "Cuenta de Instagram" alt = "Logo de Instagram"></a>
-                 <a href="https://twitter.com/" target="_blank"><img src= "images/twitter.jpg" width="30" title= "Cuenta de Twitter" alt = "Logo de Twitter"></a>
+                 <a href="mailto:gri.leeyescribe@gmail.coml" target="_blank" class="unite-div"><img src= "images/gmail.png" width="30" title= "Gmail de contacto" alt = "Logo Gmail"></a>
+                 <a href="https://www.facebook.com/" target="_blank" class="unite-div"><img src= "images/facebook.png" width="30" title= "Página de Facebook" alt = "Logo Facebook"></a>
+                 <a href="https://www.instagram.com/" target="_blank" class="unite-div"><img src= "images/instagram.png" width="30" title= "Cuenta de Instagram" alt = "Logo de Instagram"></a>
+                 <a href="https://twitter.com/" target="_blank" class="unite-div"><img src= "images/twitter.jpg" width="30" title= "Cuenta de Twitter" alt = "Logo de Twitter"></a>
              </div>
 
          </div> <!-- /.row -->
@@ -190,26 +191,40 @@
           <a href="#/">X</a>
           
           <h3>Beneficios</h3>
-          <img src="" width="50" title="" alt="Ejemplo (icono) opción: 'escritura'">
+          <div class="unite-div">
+          <img src="" width="115" title="" alt="Ejemplo (icono) opción: 'escritura'" >
+          </div>
           <h4>Escribí y compartí todas tus creaciones</h4>
           <p>Con Gri no solo puedes escribir todas tus obras y guardarlas en la nube, sino que además tienes la opción compartirlas con todos y todas las integrantes de la app. También puedes creer una seccion para que sólo tenga acceso quienes desees. No solo eso, podrás escribir en equipo... al mismo tiempo!</p>
-          <img src="" width="50" title="" alt="Ejemplo (button) 'promocionar'">
+          <div class="unite-div">
+          <img src="" width=115" title="" alt="Ejemplo (button) 'promocionar'">
+          </div>
           <h4>Promocioná tus escritos/obras con los miembros de la aplicación</h4>
           <p>Quieres volverte famoso/a haciendo lo que más te gusta? Gri te da esa oportunidad.Puedes promocionar todos tus libros y hacerte conocer por toda nuestra comunidad. Recibe votos para encontrarte en el puesto número 1 de los libros más leídos.</p> 
-          <img src="" width="50" title="" alt="Ejemplo (icono) opción: 'buscar libros'">
+          <div class="unite-div">
+          <img src="" width=115" title="" alt="Ejemplo (icono) opción: 'buscar libros'" >
+          </div>
           <h4>Lee escritos/obras de autores/as no conocidos/as, como así también de escritores/as famosos/as</h4>
           <p>Gri no sólo brinda la oportunidad de que hagas realidad tu sueño, haciendo que las personas puedan conocer tu talento. Sino que además... ¿Eres fan de algún/a autor/a? En nuestra app podrás leer esos escritos que tanto te gustan y muchos más estarán esperándote para que los conozcas.</p>
-          <img src="" width="50" title="" alt="Ejemplo (icono) de biblioteca">
+          <div class="unite-div">
+          <img src="" width=115" title="" alt="Ejemplo (icono) de biblioteca">
+          </div>
           <h4>Votá y guardá tus libros favoritos</h4>
           <p>Leíste un libro y quieres compartirlo con el mundo? Con la opción "me gusta" tienes la oportunidad de hacerlo real, entre más votos más lejos llegará. Puedes ponerle un puntaje de 1 a 5 estrellas.</p>
           <p>"App Gri" cuenta con una opción de "biblioteca virtual", guarda los libros que más te gustaron y para que puedas seguir leyéndolos más tarde, sin tiempo.</p>
-          <img src="" width="50" title="" alt="Ejemplo interfaz visual y organización">
+          <div class="unite-div">
+          <img src="" width=115" title="" alt="Ejemplo interfaz visual y organización">
+          </div>
           <h4>Buena organización e interfaz visual atractivo</h4>
           <p>Descargaste otra app la cual nunca la entendiste? Gracias a su organización, es muy fácil aprender a usar "App Gri" y conocer cómo moverte dentro de la aplicación de forma correcta. Además, podemos experimentar la satisfacción que sentimos al leer la página de un libro, pero directamente desde nuestro celular.</p>
-          <img src="" width="50" title="" alt="Ejemplo motor de búsqueda: terror">
+          <div class="unite-div">
+          <img src="" width=115" title="" alt="Ejemplo motor de búsqueda: terror">
+          </div>
           <h4>Configurá el motor de búsqueda</h4>
           <p>Estás interesado en leer libros de un género literario pero no los encuentras? "App Gri" brinda la posibilidad de poder configurar el motor de búsqueda por categoría y así poder encontrar escritos de tu interés con mayor facilidad.</p>
-          <img src="" width="50" title="" alt="Ejemplo de encargar liros">
+          <div class="unite-div">
+          <img src="" width=115" title="" alt="Ejemplo de encargar liros">
+          </div>
           <h4>Encargá los libros que no encuentres</h4>
           <p>Buscas un libro y no está disponible? No te preocupes. Con Gri puedes encargar eso que tanto quieres leer y tenerlo en tu biblioteca, en menos de 24 horas, por tiempo indefinido.</p>
           <br>

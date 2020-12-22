@@ -22,12 +22,19 @@ h1 {
 }
 
 h3{
+  text-align: center;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-variant: small-caps
+  font-variant: small-caps;
+  background: #F9EA95;
 }
 
 ul {
   list-style: none;
+}
+
+img{
+  display:block;
+  margin:auto
 }
 
 
@@ -39,11 +46,34 @@ ul {
   text-align-last: right;
 }
 
-.img-aling{
+.form {
+  background: rgba(228, 228, 228, 0.794);
 }
 
-.form {
-  background: lightgray;
+.config-anchorage {
+  padding: 8px 12px;
+  background: #A0B19F;
+  margin: 3px;
+  -moz-animation: center;
+}
+
+.unite-div{
+  float:left;
+}
+
+.unite-div-principal{
+  float:left;
+  align-items: right;
+  text-align: center;
+}
+
+.aling-anchorage-networks{
+  float:left
+}
+
+.aling-anchorage-download{
+  float:left
+
 }
 
 
@@ -52,6 +82,7 @@ ul {
 ==================================== */
 
 .aling-tex {
+  padding: 0px 0px 0px 200px;
   vertical-align: middle;
 }
 
@@ -80,7 +111,7 @@ ul.navbar-menu {
   }
 
 .navbar-item :hover {
-  background-color: yellowgreen
+  background-color:#EB8578;
   }  
 
 .navbar-link{
@@ -90,13 +121,13 @@ ul.navbar-menu {
 
 .btn{
   color: black;
-  background-color: rgb(255, 193, 59);
+  background-color: #F5A462;
   cursor: pointer;
  }
 
+ 
 footer{
-  background: rgb(255, 221, 157)
-
+  background:#306073;
  }
 
 
