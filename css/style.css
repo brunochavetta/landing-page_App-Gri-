@@ -1,6 +1,15 @@
 :root {
-
+  --first-color: #333333;
+  --second-color:  #F9EA95; 
+  --third-color:   #EB8578;
+  --fourth-color:  #F5A462; 
+  --fifth-color:  #A0B19F;
+  --sixth-color: #E3977F;
+  --seventh-color: #455473;
+  --text-color: white;
 }
+
+
 
 /* Base
 ============================= */
@@ -19,6 +28,7 @@ h1 {
   font-family: Arial, Helvetica, sans-serif;
   font-variant: small-caps;
   text-align: center;
+  
 }
 
 h3{
@@ -46,10 +56,12 @@ ul {
 }
 
 .config-anchorage {
-  
+  float:left;
+  display: block;
   padding: 8px 12px;
   background: #A0B19F;
-  margin: 3px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .unite-div{
@@ -63,7 +75,9 @@ ul {
   text-align: center;
 }
 
-
+.text-color {
+  color: var(--text-color)
+}
 /* Layout (grid-system) // Grillas
 ==================================== */
 
@@ -78,22 +92,24 @@ ul {
 }
 
 .aling-anchorage-download{
+  display: block;
   text-align-last: left;
-  float:left;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
 } 
 
 .aling-anchorage-networks{
-   text-align-last: right;
-   margin: auto;
+  display: block;
+  text-align-last: right;
+  margin-left: auto;
+  margin-right: auto;
 } 
 
 .aling-img-opinions{
-  float:left;
-  margin: 0px 0px 0px 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
-
-
 
 
 
@@ -103,11 +119,14 @@ ul {
 ul.navbar-menu {
   margin:0;
   padding:0;
+  position: absolute;
+  background: var(--seventh-color);
   }
 
 .navbar-item{
   margin-bottom:12px;
   color: white;
+  
   }
 
 .navbar-item :hover {
@@ -117,6 +136,7 @@ ul.navbar-menu {
 .navbar-link{
   font-size:15px;
   text-transform: uppercase;
+  color: var(--text-color);
 }  
 
 .btn{
@@ -127,7 +147,7 @@ ul.navbar-menu {
 
  
 footer{
-  background:#306073;
+  background-color: var(--first-color);
  }
 
 
